@@ -1,0 +1,182 @@
+html
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+    
+    
+}
+
+body{
+    background: rgb(86,67,87);
+    background: linear-gradient(275deg, rgba(147, 98, 149, 0.839) 50%, rgba(158, 122, 174, 0.657) 37%);
+
+}
+
+  @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400;500;700;800&display=swap');
+
+
+.box-card
+{
+    height: 700px;
+    width: 400px;
+    background-color: rgb(194, 251, 251);
+    border-radius: 30px 30px 30px 30px;
+    border: 2px solid rgb(69, 67, 67);
+    background: rgb(86,67,87);
+background: linear-gradient(135deg, rgba(86,67,87,0.9332326680672269) 37%, rgba(219,190,231,1) 37%);
+
+
+}
+
+.card
+{
+    width: 270px;
+    height: 50px;
+    background-color: aliceblue;
+    border-radius: 20px 20px 20px;
+    margin-top: -40px;
+
+}
+div > .card
+{
+    position: relative;
+    margin-left: 60px;
+}
+
+h1
+{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(235, 156, 156);
+    margin-bottom: 10px;
+    padding: 20px;
+    font-weight: 400px;
+}
+.element{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 500;
+
+}
+.today
+{
+    margin-left: 20px;
+}
+.monthy
+{
+    margin-right: 20px;
+}
+
+.weekly
+{
+     color: rgb(176, 86, 86);
+     margin-left: 10px;
+    margin-top: -0px;
+}
+.weekly:hover{
+    color: rgb(160, 31, 31);
+}
+
+.winner
+{
+position: relative;
+margin-left: 140px;
+bottom: 40px;
+}
+
+.bord-element
+{
+border: 2px solid #564357;
+height: 25px;
+width: 75px;
+border-radius: 10px 10px 10px 10px;
+margin-top: 13px;
+}
+
+.bord-element:hover{
+    background-color: #f1d5f266;
+}
+
+.emoji
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    margin-left: -25px;
+    margin-top: -65px;
+    
+}
+
+#emoji_1
+{
+    border: solid 2px rgb(241, 238, 224);
+    border-radius: 80px 80px 80px 80px;
+    background-color: rgba(239, 216, 91, 0.965);
+}
+
+.element-2
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+progress
+{
+position: relative;
+margin-left: 130px;
+accent-color: rgb(223, 137, 236);
+width: 160px;
+height: 25px;
+}
+.point
+{
+    font-size: 24px;
+}
+ 
+
+.name
+{
+    font-size: 16px;
+    margin-left: 110px;
+}
+
+
+#emoji_2
+{
+    border: solid 2px rgb(241, 238, 224);
+    border-radius: 80px 80px 80px 80px;
+    background-color: rgba(239, 153, 110, 0.958);
+}
+#emoji_3
+{
+    border: solid 2px rgb(241, 238, 224);
+    border-radius: 80px 80px 80px 80px;
+    background-color: rgba(122, 173, 240, 0.958);
+}
+#emoji_4
+{
+    border: solid 2px rgb(241, 238, 224);
+    border-radius: 80px 80px 80px 80px;
+    background-color: rgba(37, 110, 205, 0.958);
+}
+.position
+{
+    position: relative;
+    margin-left: -50px;
+    top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background-color: rgb(192, 79, 233);
+    border-radius: 50px 50px 50px 50px;
+    width: 25px;
+    display: flex;
+    justify-content: center;
+}
